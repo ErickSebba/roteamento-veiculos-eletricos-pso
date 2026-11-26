@@ -2,6 +2,8 @@
 
 Otimização por enxame de partículas (PSO) para o problema de roteamento de veículos elétricos: encontrar uma rota que passe pelas cidades respeitando a autonomia da bateria, com paradas em postos de recarga. Trabalho final da disciplina de Projeto e Análise de Algoritmos (UFMT, 2025).
 
+![Melhor rota encontrada com autonomia de 70 km: as cidades em azul e os postos de recarga em verde](docs/imagens/melhor-rota.png)
+
 ## Estrutura
 - `evrp_pso.py`: versão final. Gera cidades e postos, monta o grafo, roda o PSO e plota o grafo inicial, a melhor rota e a evolução do fitness.
 - `prototipos/`: versões anteriores e testes feitos durante o trabalho (interfaces em Tkinter, visualização 2D/3D e o primeiro grafo de cidades e postos).
