@@ -8,7 +8,7 @@ Otimização por enxame de partículas (PSO) para o problema de roteamento de ve
 
 ## Como executar
 ```
-pip install matplotlib networkx numpy
+pip install matplotlib networkx
 python evrp_pso.py
 ```
-Os protótipos rodam do mesmo jeito (`python prototipos/<arquivo>.py`); os que têm interface usam o Tkinter, que já vem com o Python.
+Os protótipos rodam do mesmo jeito (`python prototipos/<arquivo>.py`); alguns precisam também do `numpy`, e os que têm interface usam o Tkinter, que já vem com o Python.
