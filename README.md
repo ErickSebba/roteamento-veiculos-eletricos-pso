@@ -1,10 +1,14 @@
-# Electric Vehicle Routing Problem (EVRP) com PSO
+# Roteamento de veículos elétricos com PSO (EVRP)
 
-Otimização por enxame de partículas (PSO) para encontrar rotas de acordo com a autonomia de veículos elétricos.
+Otimização por enxame de partículas (PSO) para o problema de roteamento de veículos elétricos: encontrar uma rota que passe pelas cidades respeitando a autonomia da bateria, com paradas em postos de recarga. Trabalho final da disciplina de Projeto e Análise de Algoritmos (UFMT, 2025).
 
 ## Estrutura
-- `PSO.py`, `PSO_3d2d.py`, `pso_visual (1).py`, `psoteste.py` e `ErickTeste.py`: implementações e testes do PSO.
-- `TrabalhoFinal-PAA/`: `Trabalho Final.py` da disciplina de Projeto e Análise de Algoritmos (a apresentação e o PDF não estão no repositório).
+- `evrp_pso.py`: versão final. Gera cidades e postos, monta o grafo, roda o PSO e plota o grafo inicial, a melhor rota e a evolução do fitness.
+- `prototipos/`: versões anteriores e testes feitos durante o trabalho (interfaces em Tkinter, visualização 2D/3D e o primeiro grafo de cidades e postos).
 
 ## Como executar
-`python PSO.py` (Python 3 com `numpy` e `matplotlib`; confira as importações no início de cada arquivo).
+```
+pip install matplotlib networkx numpy
+python evrp_pso.py
+```
+Os protótipos rodam do mesmo jeito (`python prototipos/<arquivo>.py`); os que têm interface usam o Tkinter, que já vem com o Python.
