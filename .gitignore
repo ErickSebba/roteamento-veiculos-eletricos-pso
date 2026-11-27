@@ -1,0 +1,18 @@
+# Ambiente Python e caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Segredos
+.env
+
+# Ferramentas de IA (ficam só no disco)
+.claude/
+CLAUDE.md
+
+# Sistema
+.DS_Store
+Thumbs.db
