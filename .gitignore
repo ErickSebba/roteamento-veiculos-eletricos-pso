@@ -16,3 +16,6 @@ CLAUDE.md
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Configuração local do editor
+.vscode/
